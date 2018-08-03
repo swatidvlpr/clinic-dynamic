@@ -1,0 +1,128 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin_Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Best Dental Clinic in Bhubaneswar, Root Canal Treatment, Best Dentist, Laser Dentistry, Teeth Whitening, Cosmetic Dentistry : Partha's Dental Clinic</title>
+<link href="images/dental-fev-icon.jpg" rel="icon" type="image/x-icon" />
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/social.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="slidetop/story.css">
+<script src="slidetop/modernizr-2.8.3.min.js"></script>
+<script src="slidetop/libs.min.js"></script>
+<script src="slidetop/story.js"></script>
+
+<link href="css/menu-responsee.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+<script type="text/javascript" src="js/responsee.js"></script>
+<script type="text/javascript" src="js/format_jequery.js"></script>
+
+<script type="text/javascript" defer="defer" src="scrollbar/jquery.appear.js"></script>
+<script type="text/javascript" defer="defer" src="scrollbar/count-to.js"></script>
+<script type="text/javascript" defer="defer" src="scrollbar/jquery.textillate.js"></script>
+<script type="text/javascript" defer="defer" src="scrollbar/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="scrollbar/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" defer="defer" src="scrollbar/script.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>   
+ <form id="form1" runat="server">
+    <div>    
+<div id="main_wrapper">
+<div id="top_header">
+<!-------top header------->
+<div id="top_header_under_top">
+	<!-------submenu header left panel------->
+    <div id="submenu_header_left_panle">
+     <div id="follows_up_group">
+    <ul><!--<span>Follows us on:</span>-->
+    <li><a href="https://www.facebook.com/theparthasdentalclinic/" target="_blank" title="The Parthas Dental Clinic"></a></li>
+    <li><a href="http://www.plus.google.com/" target="_blank" class="gmail" title="Google Plus"></a></li>
+    <li><a href="http://www.twitter.com" target="_blank" class="twtr" title="Twitter"></a></li>
+    <li class="left-bdr"><a href="http://www.youtube.com" target="_blank" class="yubtb" title="Youtube"></a></li>
+    <!--<li class="nobdr"><a href="partha-dental-clinic-sitemap.htm" class="login" title="Sitemap">Sitemap</a></li>-->
+    </ul>
+    </div>
+     </div>
+   	<!-------submenu header left panel------->
+	<div id="submenu_header_right_panel">
+    <span>Make an Appointment Now! </span> 
+   </div>
+
+</div>
+<div class="clearfix"></div>
+<div id="logo_and_menu_panel">
+<div id="logo_and_menu_panel_under">
+	<div id="logo_panel">
+    <a title="The Partha's Dental Clinic"><!--href="http://www.theparthasdentalclinic.org/"-->
+    <img src="images/dental-logo.jpg" border="0" align="absmiddle" /> <!--The Partha's Dental Clinic--></a></div>
+  </div>
+    </div>  
+
+    <div id="welcome_to_dental_under">
+<h2>Welcome to <span>The Partha's Dental Clinic</span></h2>
+</div>
+<div class="clearfix"></div>
+<!--menu-->
+<div class="story-page-wrapper">
+<section class="col-1-1 story-content-main">
+<div class="fixed-social col-1-12 hide-for-small" style="visibility:visible;">
+<div id="menu_panel">
+<div id="menu_panel_under">
+<!--<a>Home</a> <a>About us</a> <a>Know Your Dentist</a> <a>Services</a> <a>Take a Tour</a> <a>Contacts</a> <a>Sitemap</a>
+-->
+<div class="line">
+           <nav class="margin-bottom">
+               <p class="nav-text"  style="text-align:center;">
+                <span style="padding:1px 20px; font-weight:bold; background:none; text-align:left; font-size:3em; font-style:normal; margin: 0 auto; padding:0px;">&#9776;</span></p>
+               <div class="top-nav s-12 l-10">
+                   
+                        <ul>
+                          <li><a href="Blog.aspx">Blog Show</a></li>
+                          <li><a href="Blog_entry.aspx">Blog Entry</a></li>
+                          <li><a href="Blogshow.aspx">Blog Search</a></li>
+                         <%-- <li><a href="Gallery.aspx">Gallery</a></li>--%>
+                          <li><a href="Contact.aspx">Contact Show</a></li>
+                          <li><a href="Contactshow.aspx">Contact Search</a></li>
+                          <li><a href="Default.aspx">Logout</a></li>
+                          
+                        </ul>
+                   
+               </div>
+           </nav>
+         </div>
+      </div>
+</div>
+</div>
+</section>
+</div>
+    
+
+<div>
+
+<div class="clearfix"></div>
+<div id="banner_panel"><!--this is imortant panel, plz dont't delet--></div>
+
+
+
+
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+</div>
+
+</div>
+    
+</div>
+     </form> 
+    
+    </body>
+</html>
